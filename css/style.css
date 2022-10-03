@@ -1,0 +1,392 @@
+/* Global Class  */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.underline{
+    border-top: 5px dotted rgba(0, 0, 0, 0.486);
+    width: 7%;
+    margin: 5px auto;
+}
+.global-heading{
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+section{
+    text-align: center;
+    padding: 100px 0px;
+    width: 100%;
+    float: left;
+}
+.small-heading{
+    font-size: 19px;
+    font-weight: 600;
+}
+.team-title{
+    font-size: 14px;
+    font-weight: 400;
+    color: #0994c7;
+}
+p{
+    font-size: 12px;
+    font-weight: 300;
+}
+/* header Part  */
+
+header{
+    width: 100%;
+    float: left;
+    background-color: #87509c;
+    color: #fff;
+}
+
+nav{
+    width: 100%;
+    float: left;
+    padding: 5px 0px;
+}
+.logo-part{
+    width: 50%;
+    float: left;
+}
+.menu-part{
+    width: 50%;
+    float: left;
+    padding: 20px 0px;
+    text-align: end;
+}
+.menu-part li{
+    display: inline-block;
+    margin: 10px 10px;
+    padding: 7px;
+}
+.menu-part li:hover{
+    display: inline-block;
+    margin: 10px 10px;
+    background-color: rgba(0, 0, 0, 0.295);
+    padding: 7px;
+    border-radius: 5px;
+}
+.menu-part a{
+    font-size: 17px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.hero-part{
+    width: 100%;
+    float: left;
+    margin: 150px 0px;
+    text-align: center;
+}
+.hero-part h1{
+    width: 60%;
+    margin: auto;
+}
+.hero-part a button{
+    width: 15%;
+    background-color: #eb7d4b;
+    margin-top: 20px;
+    padding: 10px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+.hero-part a button:hover{
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px #eb7d4b;
+    transition: ease-in-out 0.6s;
+}
+/* Service Section  */
+#service{
+    background-color: #17c2a4;
+    color: white;
+
+}
+.service-writing-part{
+    width: 100%;
+    float: left;
+}
+.service-box-part{
+    padding-top: 50px;
+    width: 100%;
+    float: left;
+}
+.service-box{
+    width: 25%;
+    float: left;
+    padding: 12px;
+} 
+.service-box img{
+    height: 100px;
+} 
+
+/* Team Section  */
+#team{
+    background-color: #e7f1f8;
+    color: #3c4761;
+}
+.team-writing-part{
+    width: 100%;
+    float: left;
+
+}
+.team-box-part{
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+}
+.team-box{
+    width: 25%;
+    float: left;
+    padding: 7px;
+}
+.team-box img{
+    height: 250px;
+    width: 200px;
+    border-radius: 40%;
+}
+.team-box p{
+    margin: 15px 0px;
+    color: black;
+    font-size: 13px;
+}
+
+.team-icons i{
+    background-color: #bdd1df;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    width: 35px;
+    margin: 3px;
+    transition: ease-in-out 0.5s;
+}
+.team-icons i:hover{
+    background-color: white;
+    color: #17c2a4;
+}
+.skills-writing-part{
+    width: 100%;
+    float: left;
+    margin: auto;
+}
+.skills-box-part{
+    width: 100%;
+    float: left;
+}
+.skills-box{
+    width: 25%;
+    float: left;
+    padding: 50px 0px;
+}
+
+/* Portfolio part  */
+#portfolio{
+    width: 100%;
+    float: left;
+    background-color: #ffdd99;
+    color: #6e6553;
+}
+.portfolio-writing-part{
+    width: 100%;
+    float: left;
+}
+.portfolio-box-part{
+    width: 100%;
+    float: left;
+}
+.portfolio-button button{
+    background-color: #ebc985;
+    color: black;
+    font-weight: 400;
+    padding: 5px 5px;
+    width: 5%;
+    border-radius: 6px;
+}
+.portfolio-button button:hover{
+    background-color: white;
+    color: black;
+    font-weight: 400;
+    padding: 5px 5px;
+    width: 5%;
+    border-radius: 10px;
+}
+.portfolio-box-part{
+    padding-top: 50px;
+}
+.portfolio-box-part img{
+    height: 200px;
+    width: 350px;
+
+}
+.portfolio-box-part-1{
+    width: 50%;
+    float: left;
+    
+}
+.portfolio-box-part-2{
+    width: 50%;
+    float: left;  
+}
+.portfolio-box-part button{
+    background-color: #17c2a4;
+    color: white;
+    width: 13%;
+    padding: 10px 0px;
+}
+.portfolio-box-part button:hover{
+    background-color: white;
+    color: black;
+    width: 13%;
+    padding: 10px 0px;
+    box-shadow: 0px 0px 5px 0px rgb(36, 204, 14);
+    transition: ease-in-out 0.5s;
+}
+
+/* Say Section  */
+
+#say{
+    background-color: #d74680;
+    color: white;
+}
+.say-writing-part{
+    width: 100%;
+    float: left;
+    margin: 50px 0px;
+}
+.say-box-part-1st{
+    width: 100%;
+    float: left;
+    margin: 30px 0px;
+}
+.say-box-part-2nd{
+    width: 100%;
+    float: left;
+    margin: 30px 0px;
+}
+.say-box-part-1{
+    width: 20%;
+    float: left;
+
+}
+.say-box-part-1 img{
+    width: 90px;
+    height: 90px;
+}
+.say-box-part-2{
+    width: 30%;
+    float: left;
+    text-align: left;
+}
+/* Touch Section  */
+
+#contact{
+    width: 100%;
+    float: left;
+    background-color: #3c5499;
+    color: white;
+}
+.contact-writing-part{
+    width: 100%;
+    float: left;
+    margin-top: 10px 0px;
+}
+input::placeholder{
+    color: white;
+}
+textarea::placeholder{
+    color: white;
+}
+.contact-form-part{
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+}
+.form-row{
+    width: 100%;
+    float: left;
+}
+.form-name{
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding: 10px;
+}
+.form-email{
+    width: 50%;
+    float: left;
+    text-align: left;
+    padding: 10px;
+}
+.form-textarea{
+    width: 100%;
+    float: left;
+}
+#f-name{
+    width: 50%;
+    background-color: #273a71;
+    color: white;
+    padding: 10px 5px;
+}
+#email{
+    width: 50%;
+    background-color: #273a71;
+    color: white;
+    padding: 10px 5px;
+}
+#message{
+    width: 50%;
+    background-color: #273a71;
+    color: white;
+    padding: 10px 5px;
+    height: 150px;
+}
+.required{
+    color: red;
+}
+#btn{
+    margin-top: 20px;
+    background-color: #30bae7;
+    padding: 10px 5px;
+    border-radius: 5px;
+    color: white;
+    /* v-offset, h-offset, radius, blur  */
+    box-shadow: 2px 5px 10px 0px rgba(255, 0, 255, 0.274);
+}
+
+/* Final Navigation  */
+footer{
+    width: 100%;
+    float: left;
+}
+.final-nav-part{
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: #344b8e;
+    color: white;
+    padding: 20px 0px;
+}
+.final-nav-part li{
+    display: inline;
+    padding: 0px 10px;
+    
+}
+.final-nav-part a{
+    color: white;
+}
+.final-nav-part a:hover{
+    color:#30bae7;
+}
